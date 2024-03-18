@@ -1,0 +1,59 @@
+.profile {
+  background-color: white;
+  border-radius: 10px;
+  clip-path: inset(0);
+  border: 1px solid darkgray;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  display: block;
+  height: 80px;
+  border-radius: 50%;
+  margin: 20px auto;
+  background-color: black;
+}
+
+.description {
+  text-align: center;
+  color: grey;
+}
+
+.name {
+  color: black;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.tag {
+  margin-bottom: 10px;
+}
+
+.location {
+  margin-bottom: 20px;
+}
+
+.stats {
+  display: inline-flex;
+  background-color: lightgrey;
+}
+
+.stats-item {
+  border: 1px solid darkgray;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+}
+
+.statsLable {
+  display: block;
+  color: black;
+}
+
+.statsValue {
+  display: block;
+  color: black;
+  font-weight: 700;
+}
